@@ -23,3 +23,31 @@ Available commands:
   * `<target_file>` - path to target decrypted file;
 
 ## How to build
+
+> **Go v1.17+ toolchain required!**
+
+Clone this repository:
+```shell
+git clone git@github.com:AlexanderSychev/vernam_encrypter.git
+```
+
+Go to project directory:
+```shell
+cd /path/to/cloned/repo
+```
+
+Install dependencies:
+```shell
+go install .
+```
+
+Build application:
+```shell
+go build .
+```
+
+## Roadmap
+
+* Add bytes units suffixes support for `keygen` command;
+* Some additional test coverage;
+* Check on very big files;
